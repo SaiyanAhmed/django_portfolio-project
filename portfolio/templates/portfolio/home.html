@@ -1,5 +1,9 @@
 <h1>Homepage</h1>
 {% load static %}
 
-<img src="{% static 'portfolio/pic-2.jpg' %}" height="400" weight="200">
+<a href="{% url 'blog:all_blogs' %}">Blogs</a>
+<br>
 <a href="{% static 'portfolio/resume.pdf' %}">Resume</a>
+<br>
+
+<img src="{% static 'portfolio/pic-2.jpg' %}" height="400" weight="200">
